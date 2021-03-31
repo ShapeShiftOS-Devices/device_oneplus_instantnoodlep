@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/havoc_instantnoodlep.mk
+    $(LOCAL_DIR)/ssos_instantnoodlep.mk
 
 COMMON_LUNCH_CHOICES := \
-    havoc_instantnoodlep-user \
-    havoc_instantnoodlep-userdebug \
-    havoc_instantnoodlep-eng
+    ssos_instantnoodlep-user \
+    ssos_instantnoodlep-userdebug \
+    ssos_instantnoodlep-eng

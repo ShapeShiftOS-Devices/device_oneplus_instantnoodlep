@@ -21,8 +21,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from instantnoodlep device
 $(call inherit-product, device/oneplus/instantnoodlep/device.mk)
 
-# Inherit some common Havoc stuff.
-$(call inherit-product, vendor/havoc/config/common_full_phone.mk)
+# Inherit some common ShapeShift stuff.
+$(call inherit-product, vendor/ssos/config/common_full_phone.mk)
 
 # Bootanimation
 TARGET_BOOT_ANIMATION_RES := 1440
@@ -32,9 +32,9 @@ WITH_GAPPS := true
 TARGET_GAPPS_ARCH := arm64
 TARGET_INCLUDE_LIVE_WALLPAPERS := false
 
-HAVOC_BUILD_TYPE := Official
+SSOS_BUILD_TYPE := OFFICIAL
 
-PRODUCT_NAME := havoc_instantnoodlep
+PRODUCT_NAME := ssos_instantnoodlep
 PRODUCT_DEVICE := instantnoodlep
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
