@@ -292,6 +292,6 @@
          appearance of the cutout as much as possible, and may be smaller than
          config_mainBuiltInDisplayCutout
          -->
-    <string translatable="false" name="config_mainBuiltInDisplayCutoutRectApproximation">M 0.0, 0.0 h 224 v 128 h -200 Z @left</string>
+    <string translatable="false" name="config_mainBuiltInDisplayCutoutRectApproximation">M 0.0, 0.0 h 218 v 128 h -200 Z @left</string>
 
 </resources>
